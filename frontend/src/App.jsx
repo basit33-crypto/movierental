@@ -6,7 +6,7 @@ import SearchIcon from './search.svg';
 
 //fdce8498
 
-const API_URL = 'https://www.omdbapi.com?apikey=fdce8498'
+const API_URL = `https://www.omdbapi.com?apikey=${import.meta.env.VITE_OMDB_API_KEY}`;
 
 
 const App = () => {
